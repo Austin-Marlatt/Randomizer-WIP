@@ -1,4 +1,30 @@
+ * {
+  padding: 0px;
+  margin: 0px;
+ }
+ 
+ body {
+  background-color: rgba(0, 0, 0, 0.517);
+ }
  header h1 {
-   background-color: rgb(0, 97, 3); 
+   background-color: rgba(1, 104, 4, 0); 
    text-align: center;
+   font-size: 400%;
+   filter: drop-shadow(30px 10px 4px #444d);
+}
+
+main h1 {
+  background-color: rgba(0, 0, 0, 0); 
+  border-width: 5px;
+  border-color: solid, black;
+  color:crimson;
+  text-align: center;
+  font-size: 200%;
+}
+
+main p {
+  background-color: rgba(0, 0, 0, 0); 
+  color:crimson;
+  text-align: center;
+  font-size: 200%;
 }
